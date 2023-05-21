@@ -32,7 +32,7 @@ li{
 }
 
 .menu{
-    background-image: url('images/icono_apps.png');
+    background-image: url('../img/icono_apps.png');
     background-repeat: no-repeat;
     background-position: center; 
     background-size: contain;
