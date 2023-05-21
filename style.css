@@ -1,0 +1,159 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    
+    background: #202124; 
+    font-size: small;     
+}
+
+nav ul{
+    float: right;   
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+}
+
+header{
+    display: 100%;
+    height: 60px;
+}
+
+li{
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;  
+  color: #bdc1c6;
+}
+
+.menu{
+    background-image: url('images/icono_apps.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+    width: 50px;
+    height: 25px;
+    align-items: center;
+    margin: auto;
+}
+
+.perfil img{
+    border-radius: 50px;
+    margin-left: 0px;
+}
+
+/*estilos main*/
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.logo{
+    width: 272px;
+}
+
+/*INPUT*/
+
+.input_contened{
+    display: flex;
+    justify-content: center
+}
+
+.input{
+    padding: 10px;
+    border: 1px solid #202124;
+    border-radius: 5px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 30px;
+    position: relative;
+    
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #202124;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+input:hover{
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: rgba(223,225,229,0);
+    background-image: url("");
+}
+.icono_lupa{
+    /* background-image: url("lupa.png"); */
+
+}
+
+/*BOTONES*/
+button{
+    
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    user-select: none;
+}
+
+button:hover{
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+h4{
+    font-size: small;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #bdc1c6;
+}
+
+span a{
+    color: #679cf1;
+    
+}
+
+/*footer*/
+
+footer{
+    background-color: #171717;
+}
+
+.foot_derecho li{
+    display: inline;
+    cursor: pointer;    
+    list-style: none;
+    margin-right: 50px;
+}
+
+.foot_izquierdo li{
+    display: inline;
+    cursor: pointer;    
+    list-style: none;
+    margin-right: 50px;
+}
+
+.contenedor_lis{
+    display: flex;
+    margin-left: 140px;
+}
+
+ul{
+    margin:20px;
+}
+
+
+
+
